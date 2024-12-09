@@ -17,7 +17,7 @@ Download from [release](https://github.com/Shubin123/viewbar/releases), consider
 
 
 ## [Known Issues](./extras/readme.md)
-
+mostly related to the mac operating system
 
 ### License for this project is present in the root directory (LICENSE).
  
