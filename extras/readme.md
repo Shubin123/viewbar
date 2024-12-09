@@ -1,5 +1,5 @@
 
-# known issues/disclamers:
+# disclamers/known issues:
 - electron, VTDecoderXPCService, and ffmpeg processes "sometimes" does not close properly 
 Can be closed manually in activity monitor:
 

@@ -4,7 +4,7 @@ uses ffmpeg and electron built with npm.
 
 
 ## Running
-Download from [release](https://github.com/Shubin123/viewbar/releases), consider system permissions see [Disclamers](./extras/readme). 
+Download from [release](https://github.com/Shubin123/viewbar/releases), consider system permissions see [Disclamers](./extras/readme.md). 
 
 ## Developing (needs node v18 & npm v10)
 `git clone https://github.com/Shubin123/viewbar` 
@@ -16,7 +16,7 @@ Download from [release](https://github.com/Shubin123/viewbar/releases), consider
 `npm run package` (to build)
 
 
-## [Known Issues](./extras/readme)
+## [Known Issues](./extras/readme.md)
 
 
 ### License for this project is present in the root directory (LICENSE).
