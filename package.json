@@ -1,0 +1,32 @@
+{
+  "name": "viewbar",
+  "version": "0.0.1",
+  "main": "./src/index.js",
+  "license": "GPL-3.0",  
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-packager . viewbar --platform=darwin --arch=x64 --out=./dist  --overwrite",
+    "start": "electron .",
+    "debug": "electron ./src/index.js --trace-warnings"
+
+    
+  },
+  "author": "Shubin Wang",
+  
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.0.2",
+    "electron-packager": "17.1.2"
+  },
+  
+  "build": {
+    "appId": "com.shubin.viewbar",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0"
+  }
+}
